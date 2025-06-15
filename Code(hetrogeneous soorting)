@@ -1,0 +1,13 @@
+l=['rohan',1,'billa',3,'pandat',5]
+strin=[]
+digit=[]
+
+for element in l:
+  if type(element)==str:
+    strin.append(element)
+  else:
+    digit.append(element)
+print(strin)
+print(digit)
+sorted=digit + strin
+print("Hetrogeneous list = ",sorted)
